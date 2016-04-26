@@ -3,14 +3,14 @@
 
 	<groupId>playProject</groupId>
 	<artifactId>play</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>play</name>
 	<url>http://maven.apache.org</url>
 	<scm>
-		<connection>scm:git:https://github.com/solkarlos/play.git/tree/releasesPlay</connection>
-		<developerConnection>scm:git:https://github.com/solkarlos/play.git/tree/releasesPlay</developerConnection>
+		<connection>scm:git:https://github.com/solkarlos/play.git</connection>
+		<developerConnection>scm:git:https://github.com/solkarlos/play.git</developerConnection>
 		<!-- <url>http://127.0.0.1/websvn/my-project</url> -->
 	</scm>
 	<properties>
