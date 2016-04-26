@@ -9,8 +9,8 @@
 	<name>play</name>
 	<url>http://maven.apache.org</url>
 	<scm>
-		<connection>scm:git:https://github.com/solkarlos/play.git</connection>
-		<developerConnection>scm:git:https://github.com/solkarlos/play.git</developerConnection>
+		<connection>scm:git:https://github.com/solkarlos/play.git/rama</connection>
+		<developerConnection>scm:git:https://github.com/solkarlos/play.git/rama</developerConnection>
 		<!-- <url>http://127.0.0.1/websvn/my-project</url> -->
 	</scm>
 	<properties>
