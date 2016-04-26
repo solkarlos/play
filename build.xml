@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<project basedir="." default="format">
+
+	<echo message="pulling in property files" />
+	<property file="build.properties" />
+	<property name="maven.commoncmd" value="" />
+	<condition property="maven.line" value="--offline ${maven.commoncmd}">
+		<istrue value="${offline}" />
+	</condition>
+	<condition property="maven.executable" value="mvn.cmd">
+		<os family="windows" />
+	</condition>
+	<property name="maven.executable" value="maven" />
+	<property name="maven.line" value="${maven.commoncmd}" />
+
+	<presetdef name="maven">
+		<exec failonerror="true" executable="${maven.executable}">
+			<arg line="${maven.line}" />
+		</exec>
+	</presetdef>
+	<!-- ################################## -->
+
+	<target name="format" description="">
+	 	<maven>
+		    <arg value="formatter:format"/>
+		</maven>
+	</target>
+
+</project>
