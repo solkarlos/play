@@ -41,9 +41,9 @@
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
-			<id>libs-snapshots-etsia</id>
+			<id>git-snapshots</id>
 			<name>git snapshots repository</name>
-			<url>https://github.com/solkarlos/play.git/rama</url>
+			<url>https://github.com/solkarlos/play/tree</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<dependencies>
