@@ -37,7 +37,7 @@
 		<repository>
 			<id>git-releases</id>
 			<name>git repository</name>
-			<url>https://github.com/solkarlos/play.git/rama</url>
+			<url>https://github.com/solkarlos/play/tree</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
@@ -61,6 +61,7 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m5.1</version>
 				<configuration>
+
 				</configuration>
 			</plugin>
 			<plugin>
